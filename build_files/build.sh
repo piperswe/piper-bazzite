@@ -13,7 +13,8 @@ dnf5 -y install \
     docker-buildx-plugin \
     docker-compose-plugin \
     mise \
-    zed
+    zed \
+    firefox
 
 systemctl enable docker
 echo 'g     docker   -              -' > /usr/lib/sysusers.d/docker.conf
