@@ -19,6 +19,7 @@ dnf5 -y install \
     duperemove \
     ghostty \
     rocm \
+    blender \
     https://kojipkgs.fedoraproject.org/packages/epson-inkjet-printer-escpr/1.7.21/7.1lsb3.2.fc41/x86_64/epson-inkjet-printer-escpr-1.7.21-7.1lsb3.2.fc41.x86_64.rpm
 
 systemctl enable docker
